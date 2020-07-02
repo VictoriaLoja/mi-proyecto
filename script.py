@@ -4,7 +4,9 @@
 
 def main():
     nombre=input("Ingresa tu nombre: ")
-    print('Hola', nombre, "Bienvenido a Git")
+    apellido=input("Ingresa tu apellido: ")
+    print('Hola', nombre, " ", apellido "Bienvenido a Git ")
     
+
 if __name__ == "__main__":
     main()
